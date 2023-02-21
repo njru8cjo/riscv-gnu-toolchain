@@ -3591,7 +3591,7 @@ fi
   with_binutils_src=$with_binutils_src
 
 else
-  with_binutils_src="\$(srcdir)/binutils"
+  with_binutils_src="\$(srcdir)/riscv-binutils-gdb"
 
 fi
 
