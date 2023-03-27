@@ -1,7 +1,3 @@
-[submodule "binutils"]
-	path = binutils
-	url = https://sourceware.org/git/binutils-gdb.git
-	branch = binutils-2_39-branch
 [submodule "gcc"]
 	path = gcc
 	url = https://gcc.gnu.org/git/gcc.git
@@ -17,13 +13,6 @@
 	path = newlib
 	url = https://sourceware.org/git/newlib-cygwin.git
 	branch = master
-[submodule "gdb"]
-	path = gdb
-	url = https://sourceware.org/git/binutils-gdb.git
-	branch = gdb-12-branch
-[submodule "qemu"]
-	path = qemu
-	url = https://gitlab.com/qemu-project/qemu.git
 [submodule "musl"]
 	path = musl
 	url = https://git.musl-libc.org/git/musl
@@ -36,6 +25,7 @@
 	path = pk
 	url = https://github.com/riscv-software-src/riscv-pk.git
 	branch = master
-[submodule "riscv-binutils-gdb"]
-	path = riscv-binutils-gdb
+[submodule "/home/chsu/riscv-gnu-toolchain/riscv-binutils-gdb"]
+	path = /home/chsu/riscv-gnu-toolchain/riscv-binutils-gdb
 	url = https://github.com/njru8cjo/riscv-binutils-gdb.git
+	branch = LiM
