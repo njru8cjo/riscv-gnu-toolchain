@@ -25,7 +25,7 @@
 	path = pk
 	url = https://github.com/riscv-software-src/riscv-pk.git
 	branch = master
-[submodule "/home/chsu/riscv-gnu-toolchain/riscv-binutils-gdb"]
-	path = /home/chsu/riscv-gnu-toolchain/riscv-binutils-gdb
+[submodule "riscv-binutils-gdb"]
+	path = riscv-binutils-gdb
 	url = https://github.com/njru8cjo/riscv-binutils-gdb.git
 	branch = LiM
