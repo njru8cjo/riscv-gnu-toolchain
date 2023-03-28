@@ -29,3 +29,7 @@
 	path = riscv-binutils-gdb
 	url = https://github.com/njru8cjo/riscv-binutils-gdb.git
 	branch = LiM
+[submodule "gdb"]
+	path = gdb
+	url = https://sourceware.org/git/binutils-gdb.git
+	branch = gdb-12-branch
